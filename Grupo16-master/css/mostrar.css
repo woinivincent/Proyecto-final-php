@@ -1,0 +1,49 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5959b9;
+}
+
+/* Contenedor de la tabla */
+.table-container {
+    width: 90%;
+    margin: 20px auto;
+    overflow-x: auto;
+    
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #c92525;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #d7cccc;
+}
+
+.ok {
+    color: green;
+}
+
+.bad {
+    color: red;
+}

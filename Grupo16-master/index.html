@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Pelis Pop</title>
+</head>
+<body>
+<header class="header">
+    <nav class="navegacion" >
+        <a class="anclaLogo" href="#">
+            <!-- <i class="fas fa-film" aria-hidden="true"></i> -->
+            <span class="brand">Grupo-16</span>
+        </a>
+        <!-- <div class="logo" style="padding-top:0px; padding-left:10px;">
+            <img src="./imagenes/logo.png" />
+        </div> -->
+    <!-- <ul>
+        <li><h2><a href="./mostrarApi.html" style="text-decoration: none;"> Conectar API</a></h2></li>
+        <li ><h2><a href="#destacados" style="text-decoration: none;">|Destacados</a></h2></li>
+        <li><h2><a href="#recomendaciones" style="text-decoration: none;">|Recomendaciones</a></h2></li>
+        <li><h2><a href="./registroPeliculas.html">|Registrar una Pelicula</a></h2></li>
+        <li><h2><a href="./registro.php">|Registrarse</a></h2></li>
+        <li><button class="btn btn-primary" style="background-color:black;"><h2 style="padding-bottom:2px;"><a href="./iniciarSesion.html">Iniciar Sesion</a></h2></buttom></li>
+    </ul> -->
+
+        <ul class="listaNav">
+            <li class="listaItem"><a class="linkNav" href="./mostrarApi.html">Conectar API</a></li>
+            <li class="listaItem"><a class="linkNav" href="#destacados">Destacados</a></li>
+            <li class="listaItem"><a class="linkNav" href="#recomendaciones">Recomendaciones</a></li>
+            <li class="listaItem"><a class="linkNav" href="registro.php">Registrarse</a></li>
+            <li class="listaItem"><a class="linkNav iniciarSesion" href="./iniciarSesion.html">Iniciar Sesión</a></li>
+            <li class="listaItem"><a class="linkNav iniciarSesion" href="./registroPeliculas.php">Admin Pelis</a></li>
+        </ul>
+
+    </nav>
+<section class="seccion1">
+    <!-- <div class="logo"><img src="./imagenes/logo.png" /></div> -->
+    <h1 >Pelis Pop</h1>
+    <h2 >Disfruta de la peli que quieras cuando quieras.</h2>
+</section>
+
+</header>
+<main class="container-fluid px-3 mx-0 py3- my-0">
+    <div class="destacadas " id="destacados">
+        <h2> Las mas Destacadas de Este Mes </h2>
+        <div class="d-flex justify-content-around flex-wrap">
+            <div class="card" style="width: 18rem; border:solid 1px black; margin-top:20px;">
+                <img src="./imagenes/tiburon.jpg" class="card-img" alt="poster_annette">
+            </div>
+            <div class="card" style="width: 18rem; border:solid 1px black; margin-top:20px;">
+                <img src="./imagenes/poster_bohemian.jpg" class="card-img" alt="poster_bohemia">
+            </div>
+            <div class="card" style="width: 18rem; border:solid 1px black; margin-top:20px;">
+                <img src="./imagenes/spacejam.jpg" class="card-img" alt="poster_spacejam">
+            </div>
+            <div class="card" style="width: 18rem; border:solid 1px black; margin-top:20px;">
+                <img src="./imagenes/moonlight.jpg" class="card-img" alt="poster_moonlight">
+            </div>
+        </div>
+    </div>
+    <div class="recomendaciones " id="recomendaciones">
+        <h2> Recomendaciones Para Vos </h2>
+        <div class="d-flex justify-content-around flex-wrap">
+            <div class="card" style="width: 18rem; border:solid 1px black; margin-top:20px;">
+                <img src="./imagenes/clubpelea.jpg" class="card-img" alt="poster_lanocheesjoven">
+            </div>
+            <div class="card" style="width: 18rem; border:solid 1px black; margin-top:20px;">
+                <img src="./imagenes/annete.jpg" class="card-img" alt="poster_jaws">
+            </div>
+            <div class="card" style="width: 18rem; border:solid 1px black; margin-top:20px;">
+                <img src="./imagenes/blackswan.jpg" class="card-img" alt="poster_luciferina">
+            </div>
+            <div class="card" style="width: 18rem; border:solid 1px black; margin-top:20px;">
+                <img src="./imagenes/venom.jpg" class="card-img" alt="poster_venom">
+            </div>
+        </div>
+    </div>
+    <!-- <div class="recientes ">
+        <h2> Visto Recientemente </h2>
+        <div class="d-flex justify-content-around flex-wrap">
+            <div class="recientes-contenedor" >
+                <div class="card" style="width: 18rem; border:solid 1px black; margin-top:20px;" >
+                    <img src="./imagenes/scream.jpg" class="card-img" alt="poster_theidesofmarch">
+                </div>
+                <div class="card py-1" style="width: 18rem; border:solid 1px black; margin-top:20px;">
+                    <img src="./imagenes/reyesfuturo.jpg" class="card-img" alt="poster_reyesdelfuturo">
+                </div>
+                <div class="card-reciente py-1" style="width: 18rem; border:solid 1px black; margin-top:20px;">
+                    <img src="./imagenes/spacejam.jpg" class="" alt="poster_avengers-endgame">
+                </div>
+                <div class="card-reciente py-1" style="width: 18rem; border:solid 1px black; margin-top:20px;">
+                    <img src="./imagenes/thespace.jpg" class="" alt="poster_cisne-negro">
+                </div>
+                <div class="card-reciente py-1" style="width: 18rem; border:solid 1px black; margin-top:20px;">
+                    <img src="./imagenes/time.jpg" class="" alt="poster_fight-club">
+                </div>
+                <div class="card-reciente py-1" style="width: 18rem; border:solid 1px black; margin-top:20px;">
+                    <img src="./imagenes/moonlight.jpg" class="" alt="poster_the-space-between-us">
+                </div>
+            </div>
+        </div>
+    </div> -->
+<!-- </main> -->
+
+<!-- <main class="container-fluid px-3 mx-0 py-3 my-0"> -->
+    <div class="recientes" id="recientes">
+        <h2>Visto Recientemente</h2>
+        <div class="d-flex justify-content-around flex-wrap">
+            <div class="card">
+                <img src="./imagenes/scream.jpg" class="card-img" alt="poster_scream">
+            </div>
+            <div class="card">
+                <img src="./imagenes/deadpool.jpg" class="card-img" alt="poster_reyesdelfuturo">
+            </div>
+             
+            
+            <div class="card">
+                <img src="./imagenes/spacejam.jpg" class="card-img" alt="poster_spacejam">
+            </div>
+            <div class="card">
+                <img src="./imagenes/barbie.jpg" class="card-img" alt="poster_thespace">
+            </div>
+        
+            <!-- <div class="card">
+                <img src="./imagenes/time.jpg" class="card-img" alt="poster_time">
+            </div>
+            <div class="card">
+                <img src="./imagenes/moonlight.jpg" class="card-img" alt="poster_moonlight">
+            </div> -->
+            
+        </div>
+    </div>
+</main>
+
+
+</body>
+<!-- <footer class="my-0 py-0">
+    <div class="d-flex justify-content-between flex-wrap">
+        <div class="contacto" >
+            <ul >
+                <li><h4><a href="#"><img src="./imagenes/facebook.png" style="width:40px; height:40px;" alt="Facebook"/>   Facebook  </a></h4></li>
+                <li><h4><a href="#"><img src="./imagenes/instagram.png" style="width:40px; height:40px;" alt="Instagram"/> Instagram </a></h4></li>
+                <li><h4><a href="#"><img src="./imagenes/whatsapp.png" style="width:40px; height:40px;" alt="Whatsapp"/>   WhatsApp  </a></h4></li>
+                <li><h4><a href="#"><img src="./imagenes/email.png" style="width:40px; height:40px;" alt="E-mail"/>        Mail      </a></h4></li>
+            </ul>
+        </div>
+        <div class="disclaimer">
+            <p>Todos los derechos reservados a nombre de jose ignacio meza, pagina creada en marzo de 2024 con fines educativos, proyecto que forma parte del curso full stack de PHP, con la plataforma Codo a Codo de la Ciudad de Buenos Aires. Esta pagina fue creada solo con fines educativos no de lucro.</p>
+        </div> 
+    </div>
+</footer> -->
+
+<footer class="my-0 py-0">
+    <div class="d-flex">
+        <div class="contacto">
+            <ul>
+                <li><h4><a href="https://www.facebook.com"><img src="./imagenes/facebook.png" class="social-icon" alt="Facebook"/> Facebook</a></h4></li>
+                <li><h4><a href="https://www.instagram.com"><img src="./imagenes/instagram.png" class="social-icon" alt="Instagram"/> Instagram</a></h4></li>
+                <li><h4><a href="https://www.whatsapp.com"><img src="./imagenes/whatsapp.png" class="social-icon" alt="WhatsApp"/> WhatsApp</a></h4></li>
+                <li><h4><a href="mailto:example@example.com"><img src="./imagenes/email.png" class="social-icon" alt="E-mail"/> Mail</a></h4></li>
+            </ul>
+        </div>
+        <div class="disclaimer">
+            <p>Todos los derechos reservados - &copy; Grupo 16 - 2024 - Página creada con fines educativos, proyecto que forma parte del curso full stack PHP con la plataforma Codo a Codo de la Ciudad de Buenos Aires.  </p>
+        </div> 
+    </div>
+</footer>
+
+
+
+</html>

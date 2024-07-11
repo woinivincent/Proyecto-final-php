@@ -1,0 +1,92 @@
+
+
+body{
+    background-image: url(../imagenes/bg_admi.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+
+
+}
+
+
+
+.contenedorFormularioRegistro{
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #c2c3f9c4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+
+
+
+    /* width: 100%;
+    height:600px;
+    background-image: url(../imagenes/bg_admi.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* .formularioRegistro{
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #c2c3f9c4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; */
+
+    /* width: 400px;
+    height: 800px;
+    border:solid 1px black;
+    background-color: rgba(255, 255, 255, 0.514);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column; 
+}*/
+
+.encabezadoRegistro{
+
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-size:larger ;
+    font-style: oblique; */
+    display: flex;
+    justify-content: center;
+}
+
+.bloqueFormularioRegistro{
+    margin-top: 20px;
+}
+.inputFormularioRegistro{
+
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+
+    /* margin-top:20px;
+    display: flex;
+    width: 300px; */
+}
+.textoFormularioRegistro{
+
+     color:#555;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.botonesFormularioRegistro{
+    margin-left: 70px;
+    margin-top: 20px;
+}
